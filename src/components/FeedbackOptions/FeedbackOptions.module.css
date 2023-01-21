@@ -1,0 +1,22 @@
+.feedbackOptions {
+  padding: 30px;
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+  background-color: rgb(130, 132, 135);
+  box-shadow: 0px 0px 40px -3px rgb(130, 132, 135);
+  border-radius: 10px;
+}
+.feedbackBtn {
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(169, 169, 171);
+  text-transform: uppercase;
+  border-radius: 10px;
+  border: transparent;
+  transition: transform 500ms;
+}
+.feedbackBtn:focus {
+  transform: scale(0.8);
+}
